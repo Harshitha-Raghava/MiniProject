@@ -15,7 +15,6 @@ void addContact()
     contactCount++;
     printf("Contact added.\n");
 }
-
 void displayContacts() 
 {
     for (int i = 0; i < contactCount; i++) 
