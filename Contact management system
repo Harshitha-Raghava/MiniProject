@@ -2,7 +2,7 @@
 struct Contact 
 {
     char name[50];
-    char phone[15];
+    int phone[15];
 };
 struct Contact contacts[100];
 int contactCount = 0;
